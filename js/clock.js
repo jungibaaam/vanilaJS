@@ -3,7 +3,6 @@ function sayHello() {
     console.log("hello");
 }
 
-
 function getClock() {
     const date = new Date();
     const hours = String(date.getHours()).padStart(2, "0");
